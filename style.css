@@ -1,0 +1,432 @@
+body {
+  background-image: url("image/blue.jpg");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#amne {
+  display: flex;
+  font-size: 300%;
+  font-family: "Pacifico", sans-serif;
+  color: darkblue;
+  background-color: greenyellow;
+  justify-content: center;
+}
+
+a {
+  color: darkblue;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#transition img {
+  position: absolute;
+  max-width: 100%;
+}
+
+@keyframes imgFadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img.tiramisu {
+  opacity: 0;
+  animation-name: imgFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+img.focaccia {
+  opacity: 0;
+  animation-name: imgFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+.navbar {
+  position: absolute;
+  background-color: darkblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 19px;
+  border: none;
+  outline: none;
+  color: greenyellow;
+  padding: 12px 14px;
+  background-color: inherit;
+  font-family: "Pacifico", sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px yellowgreen;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  background-color: darkblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: blueviolet;
+  color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.tiramisua {
+  display: flex;
+  position: absolute;
+  max-width: 35%;
+  max-height: 50%;
+  left: 1%;
+  top: 19%;
+  box-shadow: 5px 10px 20px blue;
+}
+
+.tiramisub {
+  display: flex;
+  position: absolute;
+  max-width: 35%;
+  max-height: 50%;
+  left: 1%;
+  top: 19%;
+  box-shadow: 5px 10px 20px blue;
+}
+
+@keyframes imgFadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img.tiramisub {
+  opacity: 0;
+  animation-name: imgFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-direction: alternate;
+}
+
+.ingredients {
+  display: flex;
+  position: absolute;
+  max-width: 30%;
+  max-height: 47%;
+  left: 38%;
+  top: 103%;
+  border: 2px solid green;
+}
+
+p {
+  display: flex;
+  position: absolute;
+  max-width: 30%;
+  top: 68%;
+  right: 64%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: greenyellow;
+  font-size: 60px;
+  font-family: "Pacifico", sans-serif;
+}
+
+h1 {
+  display: flex;
+  position: absolute;
+  left: 47%;
+  top: 21%;
+  color: yellow;
+  background-color: darkgreen;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ingrediens {
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  font-size: 18px;
+  color: white;
+  max-width: 25%;
+}
+
+li {
+  padding-top: 4%;
+}
+
+h2 {
+  position: absolute;
+  display: flex;
+  right: 14%;
+  top: 17%;
+  color: yellow;
+  background-color: darkgreen;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.steg {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  right: 2%;
+  max-width: 26%;
+  color: white;
+  font-size: 17px;
+}
+
+.step {
+  display: flex;
+  position: absolute;
+  max-width: 22%;
+  max-height: 43%;
+  left: 45%;
+  bottom: -99%;
+  border: 2px solid green;
+}
+
+.homemadetiramusi {
+  display: flex;
+  position: absolute;
+  max-width: 35%;
+  max-height: 55%;
+  left: 1%;
+  bottom: -103%;
+  border: 2px solid green;
+}
+
+.feedback {
+  display: block;
+  position: absolute;
+  bottom: -182%;
+  width: 97%;
+  border-radius: 5px;
+  background-color: greenyellow;
+  padding: 20px;
+}
+
+h3 {
+  color: blue;
+  font-family: "Pacifico", sans-serif;
+  font-size: 195%;
+  padding-bottom: 2%;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 19px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 19px;
+}
+
+input[type="submit"]:hover {
+  background-color: brown;
+}
+
+@media screen and (max-width: 992px) {
+  .body {
+    width: 50%;
+  }
+  .tiramisua,
+  .tiramisub {
+    max-width: 52%;
+    max-height: 68%;
+  }
+  p {
+    font-size: 30px;
+    max-height: 10%;
+    min-width: 45%;
+    left: 7%;
+    top: 88%;
+    padding-bottom: 3%;
+  }
+  h1 {
+    left: 67%;
+    top: 20%;
+  }
+  .ingrediens {
+    max-width: 40%;
+    left: 58%;
+    top: 29%;
+  }
+  li {
+    padding-top: 0%;
+  }
+  .ingredients {
+    left: 60%;
+    top: 84%;
+    max-width: 35%;
+  }
+  h2 {
+    right: 70%;
+    top: 110%;
+  }
+  .steg {
+    left: 5%;
+    top: 118%;
+    max-width: 50%;
+  }
+  .homemadetiramusi {
+    left: 62%;
+    bottom: -125%;
+    max-height: 42%;
+    max-width: 30%;
+  }
+  .step {
+    left: 65%;
+    bottom: -79.3%;
+  }
+  .feedback {
+    bottom: -236%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    width: 100%;
+  }
+  .tiramisua,
+  .tiramisub {
+    max-width: 85%;
+    max-height: 65%;
+    left: 7%;
+  }
+  p {
+    font-size: 30px;
+    min-width: 99%;
+    left: 6%;
+    top: 85%;
+    padding: 3%;
+  }
+  h1 {
+    left: 33%;
+    top: 103%;
+  }
+  .ingrediens {
+    min-width: 100%;
+    left: 15%;
+    top: 110%;
+  }
+  li {
+    padding-top: 2%;
+  }
+  .ingredients {
+    left: 10%;
+    top: 159%;
+    min-width: 80%;
+    min-height: 65%;
+  }
+  h2 {
+    right: 45%;
+    top: 230%;
+  }
+  .steg {
+    left: 6%;
+    top: 239%;
+    min-width: 90%;
+  }
+  .homemadetiramusi {
+    left: 13%;
+    bottom: -370%;
+    min-height: 55%;
+    min-width: 70%;
+  }
+  .step {
+    left: 30%;
+    bottom: -310%;
+    min-height: 55%;
+    min-width: 40%;
+  }
+  .feedback {
+    bottom: -439%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    width: 100%;
+  }
+  .tiramisua,
+  .tiramisub {
+    max-width: 85%;
+    max-height: 35%;
+    left: 7%;
+    top: 32%;
+  }
+  #amne {
+  }
+}

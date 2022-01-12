@@ -417,3 +417,55 @@ input[type="submit"]:hover {
     max-width: 93.5%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .body {
+    width: 100%;
+  }
+  .tiramisua,
+  .tiramisub {
+    max-width: 89%;
+    max-height: 40%;
+    top: 35%;
+    left: 5%;
+  }
+  #amne {
+    padding-left: 17%;
+    padding-bottom: 2%;
+  }
+  p {
+    top: 76%;
+  }
+  h1 {
+    left: 27%;
+    top: 105%;
+  }
+  .ingredients {
+    left: 4%;
+    top: 176%;
+    min-height: 2%;
+    max-width: 90%;
+  }
+  h2 {
+    right: 43%;
+    top: 239%;
+  }
+  .steg {
+    left: 8%;
+  }
+  .step {
+    left: 4%;
+    top: 405%;
+    min-width: 90%;
+  }
+  .homemadetiramusi {
+    left: 2.5%;
+    top: 468%;
+    min-height: 46%;
+    min-width: 93%;
+  }
+  .feedback {
+    bottom: -500%;
+    max-width: 90.5%;
+  }
+}

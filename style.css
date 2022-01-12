@@ -367,64 +367,53 @@ input[type="submit"]:hover {
   }
   p {
     font-size: 30px;
-    min-width: 99%;
-    left: 6%;
+    min-width: 90%;
+    left: 7%;
     top: 85%;
     padding: 3%;
   }
   h1 {
     left: 33%;
-    top: 103%;
+    top: 105%;
   }
   .ingrediens {
-    min-width: 100%;
+    max-width: 90%;
     left: 15%;
-    top: 110%;
+    top: 113%;
+    padding-right: 6%;
   }
   li {
     padding-top: 2%;
   }
   .ingredients {
     left: 10%;
-    top: 159%;
+    top: 166%;
     min-width: 80%;
     min-height: 65%;
   }
   h2 {
     right: 45%;
-    top: 230%;
+    top: 240%;
   }
   .steg {
     left: 6%;
-    top: 239%;
+    top: 246%;
     min-width: 90%;
   }
   .homemadetiramusi {
     left: 13%;
-    bottom: -370%;
+    top: 420%;
     min-height: 55%;
     min-width: 70%;
   }
   .step {
     left: 30%;
-    bottom: -310%;
+    top: 361%;
     min-height: 55%;
     min-width: 40%;
   }
   .feedback {
-    bottom: -439%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .body {
-    width: 100%;
-  }
-  .tiramisua,
-  .tiramisub {
-    max-width: 85%;
-    max-height: 35%;
-    left: 7%;
-    top: 32%;
+    bottom: -450%;
+    max-width: 93.5%;
   }
 }

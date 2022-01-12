@@ -218,7 +218,7 @@ h2 {
   position: absolute;
   display: flex;
   right: 14%;
-  top: 17%;
+  top: 21%;
   color: yellow;
   background-color: darkgreen;
   font-size: xx-large;
@@ -228,7 +228,7 @@ h2 {
 .steg {
   display: flex;
   position: absolute;
-  top: 25%;
+  top: 30%;
   right: 2%;
   max-width: 26%;
   color: white;
@@ -239,26 +239,26 @@ h2 {
   display: flex;
   position: absolute;
   max-width: 22%;
-  max-height: 43%;
-  left: 45%;
-  bottom: -99%;
+  max-height: 49%;
+  left: 43%;
+  top: 153%;
   border: 2px solid green;
 }
 
 .homemadetiramusi {
   display: flex;
   position: absolute;
-  max-width: 35%;
+  max-width: 30%;
   max-height: 55%;
-  left: 1%;
-  bottom: -103%;
+  left: 4%;
+  top: 147%;
   border: 2px solid green;
 }
 
 .feedback {
   display: block;
   position: absolute;
-  bottom: -182%;
+  top: 229%;
   width: 97%;
   border-radius: 5px;
   background-color: greenyellow;
@@ -342,16 +342,16 @@ input[type="submit"]:hover {
   }
   .homemadetiramusi {
     left: 62%;
-    bottom: -125%;
+    top: 190%;
     max-height: 42%;
     max-width: 30%;
   }
   .step {
     left: 65%;
-    bottom: -79.3%;
+    top: 135%;
   }
   .feedback {
-    bottom: -236%;
+    top: 276%;
   }
 }
 
@@ -402,23 +402,23 @@ input[type="submit"]:hover {
   }
   .homemadetiramusi {
     left: 13%;
-    top: 420%;
+    top: 425%;
     min-height: 55%;
     min-width: 70%;
   }
   .step {
     left: 30%;
-    top: 361%;
+    top: 363%;
     min-height: 55%;
     min-width: 40%;
   }
   .feedback {
-    bottom: -450%;
+    top: 490%;
     max-width: 93.5%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 499px) {
   .body {
     width: 100%;
   }
@@ -455,17 +455,17 @@ input[type="submit"]:hover {
   }
   .step {
     left: 4%;
-    top: 405%;
+    top: 411%;
     min-width: 90%;
   }
   .homemadetiramusi {
     left: 2.5%;
-    top: 468%;
+    top: 473%;
     min-height: 46%;
     min-width: 93%;
   }
   .feedback {
-    bottom: -500%;
+    top: 530%;
     max-width: 90.5%;
   }
 }

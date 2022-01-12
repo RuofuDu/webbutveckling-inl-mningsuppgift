@@ -435,6 +435,7 @@ input[type="submit"]:hover {
   }
   p {
     top: 76%;
+    left: 3%;
   }
   h1 {
     left: 27%;
@@ -442,7 +443,7 @@ input[type="submit"]:hover {
   }
   .ingredients {
     left: 4%;
-    top: 176%;
+    top: 180%;
     min-height: 2%;
     max-width: 90%;
   }
@@ -454,18 +455,18 @@ input[type="submit"]:hover {
     left: 8%;
   }
   .step {
-    left: 4%;
+    left: 9%;
     top: 411%;
-    min-width: 90%;
+    min-width: 79%;
   }
   .homemadetiramusi {
     left: 2.5%;
-    top: 473%;
-    min-height: 46%;
+    top: 475%;
+    min-height: 53%;
     min-width: 93%;
   }
   .feedback {
-    top: 530%;
+    top: 543%;
     max-width: 90.5%;
   }
 }

@@ -426,30 +426,33 @@ input[type="submit"]:hover {
   .tiramisub {
     max-width: 89%;
     max-height: 40%;
-    top: 35%;
+    top: 17%;
     left: 5%;
   }
   #amne {
-    padding-left: 23%;
     padding-bottom: 2%;
+    font-size: 216%;
   }
   p {
-    top: 76%;
+    top: 59%;
     left: 3%;
   }
   h1 {
     left: 27%;
+    top: 95%;
+  }
+  .ingrediens {
     top: 105%;
   }
   .ingredients {
     left: 4%;
-    top: 180%;
+    top: 173%;
     min-height: 2%;
     max-width: 90%;
   }
   h2 {
     right: 43%;
-    top: 239%;
+    top: 237%;
   }
   .steg {
     left: 8%;

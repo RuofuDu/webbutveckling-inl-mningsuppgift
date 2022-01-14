@@ -422,6 +422,15 @@ input[type="submit"]:hover {
   .body {
     width: 100%;
   }
+  .pasta {
+    max-height: 50%;
+  }
+  .focaccia {
+    max-height: 50%;
+  }
+  .tiramisu {
+    max-height: 50%;
+  }
   .tiramisua,
   .tiramisub {
     max-width: 89%;

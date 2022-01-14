@@ -127,8 +127,8 @@ img.focaccia {
   position: absolute;
   max-width: 35%;
   max-height: 50%;
-  left: 1%;
-  top: 19%;
+  margin-left: 2%;
+  margin-top: 2%;
   box-shadow: 5px 10px 20px blue;
 }
 
@@ -137,8 +137,8 @@ img.focaccia {
   position: absolute;
   max-width: 35%;
   max-height: 50%;
-  left: 1%;
-  top: 19%;
+  margin-left: 2%;
+  margin-top: 2%;
   box-shadow: 5px 10px 20px blue;
 }
 
@@ -180,10 +180,8 @@ p {
   display: flex;
   position: absolute;
   max-width: 30%;
-  top: 68%;
   right: 64%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  top: 72%;
   color: greenyellow;
   font-size: 60px;
   font-family: "Pacifico", sans-serif;
@@ -258,8 +256,9 @@ h2 {
 .feedback {
   display: block;
   position: absolute;
-  top: 229%;
+  top: 217%;
   width: 97%;
+  margin-top: 4%;
   border-radius: 5px;
   background-color: greenyellow;
   padding: 20px;
@@ -311,9 +310,6 @@ input[type="submit"]:hover {
   .dropdown-content {
     max-width: 23%;
   }
-  .dropdown-content a {
-    padding: 12px 16px;
-  }
   .tiramisua,
   .tiramisub {
     max-width: 52%;
@@ -329,19 +325,19 @@ input[type="submit"]:hover {
   }
   h1 {
     left: 67%;
-    top: 20%;
+    top: 18%;
   }
   .ingrediens {
     max-width: 40%;
     left: 58%;
-    top: 29%;
+    top: 27%;
   }
   li {
     padding-top: 0%;
   }
   .ingredients {
     left: 60%;
-    top: 84%;
+    top: 85%;
     max-width: 35%;
   }
   h2 {
@@ -357,14 +353,13 @@ input[type="submit"]:hover {
     left: 62%;
     top: 190%;
     max-height: 42%;
-    max-width: 30%;
   }
   .step {
     left: 65%;
     top: 135%;
   }
   .feedback {
-    top: 276%;
+    top: 271%;
   }
 }
 
@@ -374,19 +369,18 @@ input[type="submit"]:hover {
   }
   .tiramisua,
   .tiramisub {
+    top: 18%;
     max-width: 85%;
     max-height: 65%;
-    left: 7%;
+    left: 5%;
   }
   p {
-    font-size: 30px;
     min-width: 90%;
-    left: 7%;
-    top: 85%;
-    padding: 3%;
+    left: 8%;
+    top: 89%;
   }
   h1 {
-    left: 33%;
+    left: 37%;
     top: 105%;
   }
   .ingrediens {
@@ -432,9 +426,6 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 499px) {
-  .body {
-    width: 100%;
-  }
   .dropdown-content a {
     padding: 5px 16px;
   }
@@ -452,15 +443,15 @@ input[type="submit"]:hover {
     max-width: 89%;
     max-height: 40%;
     top: 17%;
-    left: 5%;
+    left: 3.5%;
   }
   #amne {
     padding-bottom: 2%;
     font-size: 216%;
   }
   p {
-    top: 59%;
-    left: 3%;
+    top: 61%;
+    left: 5%;
   }
   h1 {
     left: 27%;

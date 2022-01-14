@@ -422,6 +422,19 @@ input[type="submit"]:hover {
   .body {
     width: 100%;
   }
+  .navbar {
+    max-width: 23%;
+  }
+  .dropdown .dropbtn {
+    max-width: 100%;
+    padding-left: 5%;
+  }
+  .dropdown-content {
+    max-width: 23%;
+  }
+  .dropdown-content a {
+    padding: 5px 16px;
+  }
   .pasta {
     max-height: 50%;
   }

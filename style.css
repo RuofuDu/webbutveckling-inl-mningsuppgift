@@ -455,21 +455,22 @@ input[type="submit"]:hover {
     top: 237%;
   }
   .steg {
-    left: 8%;
+    left: 13%;
+    min-width: 80%;
   }
   .step {
     left: 9%;
-    top: 411%;
+    top: 421%;
     min-width: 79%;
   }
   .homemadetiramusi {
     left: 2.5%;
-    top: 475%;
+    top: 485%;
     min-height: 53%;
     min-width: 93%;
   }
   .feedback {
-    top: 543%;
+    top: 549%;
     max-width: 90.5%;
   }
 }
